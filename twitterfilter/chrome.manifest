@@ -1,0 +1,8 @@
+content     twitterfilter     jar:chrome/twitterfilter.jar!/content/
+skin        twitterfilter     classic             jar:chrome/twitterfilter.jar!/skin/
+
+locale      twitterfilter     en-US               jar:chrome/twitterfilter.jar!/locale/en-US/
+
+overlay     chrome://browser/content/browser.xul                chrome://twitterfilter/content/overlay.xul
+
+override chrome://twitterfilter/content/options.xul chrome://twitterfilter/content/options-mobile.xul application={a23983c0-fd0e-11dc-95ff-0800200c9a66}

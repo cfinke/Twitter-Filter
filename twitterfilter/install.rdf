@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>twitterfilter@efinke.com</em:id>
+		<em:name>Twitter Filter</em:name>
+		<em:version>1.0.1pre</em:version>
+		<em:description>Allows you to filter out Twitter updates based on their source.</em:description>
+		<em:creator>Christopher Finke</em:creator>
+		<em:homepageURL>http://www.chrisfinke.com/firstrun/twitterfilter.php</em:homepageURL>
+		
+		<!-- Firefox -->
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>4.0b2pre1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<!-- Fennec -->
+		
+		<em:targetApplication>
+			<Description>
+				<em:id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>1.1.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+	</Description>
+</RDF>
