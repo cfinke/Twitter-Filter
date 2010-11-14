@@ -1,0 +1,1 @@
+Twitter Filter is an add-on for Firefox that allows you to filter out Twitter updates based on their source.
