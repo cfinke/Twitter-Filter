@@ -7,7 +7,7 @@ chmod -R 0777 twitterfilter/
 
 mkdir .tmp_xpi_dir/
 cp -r twitterfilter/* .tmp_xpi_dir/
-rm -rf `find ./.tmp_xpi_dir/ -name ".svn"`
+rm -rf `find ./.tmp_xpi_dir/ -name ".git"`
 
 cd .tmp_xpi_dir/chrome/
 zip -rq ../twitterfilter.jar *
